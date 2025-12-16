@@ -1,6 +1,4 @@
 # spring-native-image
 GraalVM native images with Spring Boot
 
-- Deployed as a AWS Lambda
-- Deployed as a Azure Function
-- Dployed as a Google Cloud Run Function
+Deployed as a HTTP trigger for Google Cloud, AWS and Azure
