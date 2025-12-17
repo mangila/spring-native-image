@@ -1,4 +1,4 @@
 # spring-native-image
-GraalVM native images with Spring Boot
+GraalVM native image as FaaS in k8s
 
-Deployed as a Function in a Minikube k8s cluster
+- Serverless deployed with [fission.io](https://fission.io/)
