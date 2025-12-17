@@ -1,4 +1,4 @@
 # spring-native-image
 GraalVM native images with Spring Boot
 
-Deployed as a HTTP trigger for Google Cloud, AWS and Azure
+Deployed as a Function in a Minikube k8s cluster
