@@ -8,6 +8,6 @@ RUN ./mvnw -Pnative native:compile
 
 FROM alpine:latest
 
-COPY --from=0 /build/target/native-image /app
+COPY --from=0 /build/target/fission-native-image /app
 
 ENTRYPOINT ["/app"]

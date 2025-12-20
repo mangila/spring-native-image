@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.github.mangila</groupId>
-    <artifactId>native-image</artifactId>
+    <artifactId>fission-native-image</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>native-image</name>
     <description>native-image</description>
