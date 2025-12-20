@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: scheduled-native-image
+spec:
+  schedule: "* * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: job-native-image
+              image: job-native-image:latest
+              imagePullPolicy: Never
+          restartPolicy: OnFailure

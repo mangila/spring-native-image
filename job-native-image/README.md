@@ -17,5 +17,9 @@ minikube image load job-native-image
 ```
 
 ```bash
-kubectl apply -f k8s.yaml
+kubectl apply -f job-k8s.yaml
+```
+
+```bash
+kubectl apply -f scheduled-k8s.yaml
 ```
