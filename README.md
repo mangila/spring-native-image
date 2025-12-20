@@ -19,3 +19,7 @@ fission fn run-container --name hello --image spring-native-imagefission route c
 ```bash
 fission route create --name hello-route --function hello --prefix /hello --keepprefix
 ```
+
+```bash
+fission fn test --name hello --method GET --subpath /hello 
+```
