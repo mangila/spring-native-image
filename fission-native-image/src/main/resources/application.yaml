@@ -4,4 +4,4 @@ spring:
   main:
     web-application-type: reactive
   application:
-    name: native-image
+    name: fission-native-image
